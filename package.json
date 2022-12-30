@@ -1,7 +1,7 @@
 {
-  "name": "@codineerdigital/npm-package-template",
+  "name": "@codineerdigital/lock-manager",
   "version": "1.0.0",
-  "description": "NPM package template with TypeScript",
+  "description": "Manage concurrency for a collection of resources using a queue system for mutual exclusion",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodineerDigital/npm-package-template.git"
+    "url": "git+https://github.com/CodineerDigital/lock-manager.git"
   },
   "author": "Codineer Digital",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/CodineerDigital/npm-package-template/issues"
+    "url": "https://github.com/CodineerDigital/lock-manager/issues"
   },
-  "homepage": "https://github.com/CodineerDigital/npm-package-template#readme",
+  "homepage": "https://github.com/CodineerDigital/lock-manager#readme",
   "devDependencies": {
     "@types/jest": "^29.2.4",
     "jest": "^29.3.1",
